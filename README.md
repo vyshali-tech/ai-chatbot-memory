@@ -86,7 +86,19 @@ python chatbot.py
 - `show history` → Display previous messages  
 
 ---
+---
 
+## ⚙️ How It Works
+
+1. The chatbot takes user input.
+2. The input is stored in a memory file (`memory.json`).
+3. Previous messages are loaded to maintain conversation context.
+4. The messages are sent to the local AI model using Ollama.
+5. The AI generates a response.
+6. The response is saved back into memory.
+7. Users can reset memory or view history using commands.
+
+This allows the chatbot to remember conversations even after restarting.
 ## 🎯 Future Improvements
 
 - Add web interface  
