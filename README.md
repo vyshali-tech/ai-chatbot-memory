@@ -1,6 +1,9 @@
 # 🧠 AI Conversational Chatbot with Persistent Memory
 
 ## 📌 Project Overview
+## 📸 Demo Screenshot
+
+![Chatbot Screenshot](screenshot.png)
 
 This project is an AI-powered chatbot built using Python and a local AI model through Ollama.
 
